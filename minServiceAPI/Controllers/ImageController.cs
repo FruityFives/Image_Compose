@@ -34,7 +34,7 @@ namespace minServiceAPI.Controllers
                     images.Add(imageURI);
                 }
             }
-            return Ok(images);
+            return/*  */ Ok(images);
         }
     }
 }
